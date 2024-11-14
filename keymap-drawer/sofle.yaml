@@ -38,20 +38,20 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
+  - {t: /, s: '?'}
   - .
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
   - V
-  - B
+  - {t: ;, s: ':'}
   - $$mdi:arrow-right-bold$$
+  - B
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
