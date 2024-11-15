@@ -35,11 +35,11 @@ layers:
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - J
-  - K
-  - L
-  - {t: /, s: '?'}
-  - .
+  - {t: J, h: RIGHT GUI}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
+  - {t: ., h: Sft+AGr+Ctl+ RIGHT GUI}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
