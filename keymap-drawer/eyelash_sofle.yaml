@@ -20,11 +20,11 @@ layers:
   - P
   - B
   - $$mdi:arrow-down-bold$$
-  - Y
+  - J
+  - L
   - U
-  - I
-  - O
-  - P
+  - Y
+  - {t: ;, s: ':'}
   - {t: \, s: '|'}
   - {t: '$$mdi:keyboard-esc$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
@@ -33,21 +33,21 @@ layers:
   - {t: T, h: '$$mdi:apple-keyboard-command$$'}
   - G
   - $$mdi:arrow-left-bold$$
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - .
+  - M
+  - {t: N, h: RIGHT GUI}
+  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: ., h: Sft+AltGr+Ctl+RIGHT GUI}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
+  - D
   - V
-  - B
   - $$mdi:arrow-right-bold$$
-  - N
-  - M
+  - K
+  - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
