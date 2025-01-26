@@ -97,6 +97,11 @@
             key-positions = <35 36>;
             layers = <0>;
         };
+
+        hyper_p {
+            bindings = <&kp LS(LA(LC(LG(P))))>;
+            key-positions = <30 29 28 34 35 36>;
+        };
     };
 
     keymap {
