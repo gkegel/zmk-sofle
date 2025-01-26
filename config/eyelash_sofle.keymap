@@ -71,6 +71,34 @@
         hold-trigger-key-positions = <7 8 10 11 12 20 21 22 23 24 25 33 34 35 36 37 38 46 47 48 49 50 51 60 61 62 63 59 57 56 55 53 54>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        dash_pointers {
+            bindings = <&kp MINUS>;
+            key-positions = <30 34>;
+            layers = <0>;
+        };
+
+        l_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <30 29>;
+            layers = <0>;
+        };
+
+        r_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <34 35>;
+            layers = <0>;
+        };
+
+        single_quote {
+            bindings = <&kp SQT>;
+            key-positions = <35 36>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -134,11 +162,11 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans          &mkp MB3        &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &msc SCRL_UP    &mkp MB1        &mmv MOVE_UP    &mkp MB2         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &kp K_CUT       &kp K_COPY      &kp K_PASTE      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans          &trans           &trans
+&rgb_ug RGB_COLOR_HSB(263,100,50)  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI    &trans  &trans          &trans          &mkp MB3        &trans           &trans  &trans
+&rgb_ug RGB_COLOR_HSB(0,100,32)    &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD    &trans  &msc SCRL_UP    &mkp MB1        &mmv MOVE_UP    &mkp MB2         &trans  &trans
+&trans                             &trans           &trans           &trans           &trans           &trans             &trans  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans                             &trans           &trans           &trans           &trans           &trans             &trans  &trans          &kp K_CUT       &kp K_COPY      &kp K_PASTE      &trans  &trans
+&trans                             &trans           &trans           &trans           &trans           &trans             &trans  &trans          &trans          &trans          &trans           &trans
             >;
         };
     };
