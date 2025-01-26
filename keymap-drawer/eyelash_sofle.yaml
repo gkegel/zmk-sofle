@@ -325,12 +325,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '5':
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB COLOR HSB(263,100,50)
+  - RGB EFF
+  - RGB SPI
+  - RGB BRI
+  - RGB SAI
+  - RGB HUI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -338,12 +338,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB COLOR HSB(0,100,32)
+  - RGB EFR
+  - RGB SPD
+  - RGB BRD
+  - RGB SAD
+  - RGB HUD
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-up$$
   - '&mkp MB1'
@@ -389,3 +389,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [30, 34]
+  k: {t: '-', s: _}
+  l: [LAYER0]
+- p: [30, 29]
+  k: {t: '[', s: '{'}
+  l: [LAYER0]
+- p: [34, 35]
+  k: {t: ']', s: '}'}
+  l: [LAYER0]
+- p: [35, 36]
+  k: {t: '''', s: '"'}
+  l: [LAYER0]
